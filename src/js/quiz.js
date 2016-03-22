@@ -11,7 +11,6 @@ function next(t){
     gotoTop();
 }
 function result(t){
-    share_pop("open",10000);
     $("div#bd > div.panel-body").hide();
     
     $("div.js_result").eq(fullScore - t).show();
@@ -58,7 +57,7 @@ function push(){
 
     // Fire off the request to /form.php
     request = $.ajax({
-        url: "http://zwen668.com/git/foolsDayQuiz/php/post.php",
+        url: "http://zwen668.com/git/foolsDayQuiz/src/php/post.php",
         type: "post",
         data: serializedData
     });
