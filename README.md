@@ -1,4 +1,4 @@
-editor-quiz (CNPolitics)
+fools-day-quiz (CNPolitics)
 ==========
 
 使用代码请遵守<br/>
