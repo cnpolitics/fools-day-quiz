@@ -1,5 +1,5 @@
 var total = 10;
-var fullScore = 8;
+var fullScore = 10;
 var tScore = 0;
 var record = 0;
 var quizRec = "";
