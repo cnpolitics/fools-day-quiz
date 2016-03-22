@@ -3,7 +3,7 @@ var fullScore = 8;
 var tScore = 0;
 var record = 0;
 var quizRec = "";
-
+var temp;
 function next(t){
     $("div#bd > div.panel-body").hide();
     $("div.js_answer").eq(t).show();
@@ -36,7 +36,7 @@ function push(){
           .attr('value', tScore)
           .appendTo($form);
           
-    for (i=1;i<9; i++){
+    for (i=1;i<11; i++){
     
       $('<input />').attr('type', 'hidden')
           .attr('name', "A"+i)
@@ -46,7 +46,7 @@ function push(){
     
     // Let's select and cache all the fields
     var $inputs = $form.find("input, select, button, textarea");
-
+	temp = $form;
     // Serialize the data in the form
     var serializedData = $form.serialize();
 
