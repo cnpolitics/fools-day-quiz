@@ -1,4 +1,4 @@
-var total = 10;
+var total = 11;
 var fullScore = 10;
 var tScore = 0;
 var record = 0;
@@ -89,6 +89,26 @@ function push(){
 }
 
 function toggle(t){
+	var child =  $(t).children("input");
+	if (child.length == 0){
+		var gender = document.getElementsByName("Gender")[0].value;
+		var faculty = document.getElementsByName("Faculty")[0].value;
+		var age = document.getElementsByName("Age")[0].value;
+		if (gender == "" | faculty =="" | age == ""){
+			alert("请选择您的个人信息");
+		}else {
+			push();
+		
+			//Hard coded maximum,please do not try to hack it 
+			if (tScore > 10 ) {
+				tScore = 10
+			}
+			
+			modifyTitle(tScore);
+			result(tScore);
+		}
+	
+	}else {
     	$(t).children("input").attr("checked","checked");
   		$("li.list-group-item").removeClass('active')
     	var rt = $(t).children("input:checked").val();
@@ -106,6 +126,7 @@ function toggle(t){
     	}else{
         	setTimeout(function(){next(t);},500);
     	}
+    }
 }
 
 function gotoTop(){

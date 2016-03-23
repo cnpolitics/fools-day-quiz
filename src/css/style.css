@@ -8,8 +8,11 @@ a:hover{text-decoration: none;}
 .pdn{padding: 0 !important;}
 h1{font-size: 26px;}
 h2{font-size: 24px;}
-h3{font-size: 22px;}
+h3{font-size: 22px; height: 40px}
 h4{font-size: 14px;}
+p{text-align: left;}
+
+.middle-box{height:70px}
 .avatar .img-circle{display: block;width:80px;height: 80px;background:none!important;font-size: 34px;line-height: 80px;margin:0 auto;color:#fff}
 .form-control{padding:12px;font-size: 18px; height:40px;border-radius:1px;box-shadow:none;border-color:#aaa}
 
@@ -23,7 +26,7 @@ h4{font-size: 14px;}
    font-size: 14px;
    line-height: 1;
    height: 30px;
-   }
+}
    
 .result-btn{ 
 	position:relative;
@@ -44,6 +47,7 @@ h4{font-size: 14px;}
 .result-btn:active {
   background-color: #3e8e41;
 }
+
 
 /*Look at dis part */
 .sm_container #bd{margin-top: 30px;}
