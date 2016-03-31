@@ -16,9 +16,9 @@ p{text-align: left;}
 .avatar .img-circle{display: block;width:80px;height: 80px;background:none!important;font-size: 34px;line-height: 80px;margin:0 auto;color:#fff}
 .form-control{padding:12px;font-size: 18px; height:40px;border-radius:1px;box-shadow:none;border-color:#aaa}
 
-.icon1{width:100%; position: absolute; top:-90px; left:0%; float: left;text-align: center; width: 100%; padding-top: 18px;background:none;}
+.icon1{width:100%; position: absolute; top:-100px; left:0%; float: left;text-align: center; width: 100%; padding-top: 18px;background:none;}
 .icon2{position: absolute; left:-16%; top:-60px; background: none;}
-.icon3{width:100%; position: absolute; top:175px; left:0%; float: left;text-align: center; width: 100%; padding-top: 18px;background:none;}
+.icon3{width:100%; position: absolute; top:140px; left:-5%; float: left;text-align: center; width: 100%; padding-top: 18px;background:none;}
 .styled-select{
    background: transparent;
    width: 80%;
@@ -27,21 +27,25 @@ p{text-align: left;}
    line-height: 1;
    height: 30px;
 }
-   
+
+.divider{
+    width:auto;
+    height:10px;
+    display:inline-block;
+}
+
 .result-btn{ 
 	position:relative;
-	top: 0%;
-	left:0%;
-    background-color: #c7edf9; 
+    background-color: #c7f98e; 
     border: none;
     color: black;
-    padding: 10px 20px;
+    padding: 5px 10px 0px 10px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 22px;
     box-shadow: -3px 3px 4px 0 rgba(0,0,0,0.6);
     border-radius: 8px;
+    height: 50px;
     }
     
 .result-btn:active {
@@ -53,7 +57,7 @@ p{text-align: left;}
 .sm_container #bd{margin-top: 30px;}
 .sm_container #bd form{padding-top: 0;}
 /*main panel's setting*/
-#bd{margin-top: 60px;background:#ebf6fb;}
+#bd{margin-top: 60px;background:#e7eee7;}
 #bd form{position: relative; top: 0px;}
 #bd .avatar{width:100%; position: absolute;top:-90px;}
 #bd dl, #bd p{color:#222;}
@@ -62,9 +66,9 @@ p{text-align: left;}
 #bd dl dd{font-size: 16px;text-shadow: 0 1px 0 rgba(255,255,255,0.3)}
 #bd .list-group {background:#dfeaf0;color:#000;}
 /*form's reaction color*/
-#bd form .list-group li.active{background: #006fba;color:#fff;}
+#bd form .list-group li.active{background: #c6cfc5;color:#fff;}
 
-#bd .list-group-item{background:#dfeaf0;font-size: 16px;}
+#bd .list-group-item{background:#c7f98e;font-size: 16px;}
 
 #header_bar { height: 44px; padding: 8px 10px; }
 #header_bar a { color: #FFFFFF; font-size: 24px; }
