@@ -1,4 +1,5 @@
 <?php
+header("Access-Control-Allow-Origin: *");
 $url = 'https://script.google.com/macros/s/AKfycbwSux4h8zAQxElXNH8GvBPG0HONRFO_abH0wpjeiNQjKBno8-c/exec';
 $data = $_POST;
 $options = array(
