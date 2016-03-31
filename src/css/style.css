@@ -36,7 +36,7 @@ p{text-align: left;}
 
 .result-btn{ 
 	position:relative;
-    background-color: #c7f98e; 
+    background-color: #f0d782; 
     border: none;
     color: black;
     padding: 5px 10px 0px 10px;
@@ -68,7 +68,7 @@ p{text-align: left;}
 /*form's reaction color*/
 #bd form .list-group li.active{background: #c6cfc5;color:#fff;}
 
-#bd .list-group-item{background:#c7f98e;font-size: 16px;}
+#bd .list-group-item{background:#e7eee7;font-size: 16px;}
 
 #header_bar { height: 44px; padding: 8px 10px; }
 #header_bar a { color: #FFFFFF; font-size: 24px; }
