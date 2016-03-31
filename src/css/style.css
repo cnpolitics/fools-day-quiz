@@ -18,7 +18,7 @@ p{text-align: left;}
 
 .icon1{width:100%; position: absolute; top:-100px; left:0%; float: left;text-align: center; width: 100%; padding-top: 18px;background:none;}
 .icon2{position: absolute; left:-16%; top:-60px; background: none;}
-.icon3{width:100%; position: absolute; top:140px; left:-5%; float: left;text-align: center; width: 100%; padding-top: 18px;background:none;}
+.icon3{width:100%; position: absolute; top:120px; left:-5%; float: left;text-align: center; width: 100%; padding-top: 18px;background:none;}
 .styled-select{
    background: transparent;
    width: 80%;
