@@ -5,7 +5,7 @@ fools-day-quiz (CNPolitics)
 **WTFPL** [协议内容](http://www.wtfpl.net/txt/copying/)<br/>
 <br/>
 <br/>
-**以上协议只适用于editor-quiz的源代码。**<br/>
+**以上协议只适用于愚人节测试的源代码。**<br/>
 <br/>
 **代码编写者有变更后续版本源代码的授权协议的权利。**<br/>
 <br/>
